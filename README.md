@@ -16,26 +16,22 @@ This is a simple personal website built using Python and the Flask framework. It
 - CSS
 
 
+## 📂 Project Structure
+
+```
 flask-personal-site/
 │
 ├── static/
-│   └── style.css                # CSS file for styling
+│   └── style.css               # CSS file for styling
 │
 ├── templates/
-│   ├── index.html               # Home page template
-│   └── about.html               # About page template
+│   ├── index.html              # Home page template
+│   └── about.html              # About page template
 │
-├── app.py                       # Main Flask application
-├── requirements.txt             # Project dependencies
-└── README.md                    # Project documentation
+├── app.py                      # Main Flask application
+├── requirements.txt            # Project dependencies
+└── README.md                   # Project documentation
+```
 
 
-## 🚀 How to Run the Project
 
-```bash
-git clone https://github.com/your-username/flask-personal-site.git
-cd flask-personal-site
-python -m venv venv
-source venv/bin/activate   # On Windows use venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
